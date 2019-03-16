@@ -1,0 +1,9 @@
+#Example of call:
+# 	1) Create a matrix: 						m <- matrix(1:4, nrow=2, ncol=2)
+
+# 	2) Create the special matrix: 				cacheMatrix <- makeCacheMatrix(m)
+
+#	3) Call the cacheSolve 1st Time:			cacheSolve(cacheMatrix)
+
+#	4) Call the cacheSolve 2nd time r:			cacheSolve(cacheMatrix)
+#		the second call will be from the cache
